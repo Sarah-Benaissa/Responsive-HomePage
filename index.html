@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bakbak+One&family=Cookie&family=Expletus+Sans:ital@1&family=Lobster&family=Lobster+Two:ital,wght@0,400;1,700&family=Merienda:wght@700&family=Mochiy+Pop+P+One&family=Poppins:wght@300;400;700&family=Raleway:wght@400;700&family=Rowdies:wght@700&family=Ruda&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>index</title>
+</head>
+<body>
+<!-- Navbar-->
+<nav class="navbar">
+    <h1 class="logo">ADVENRURE</h1>
+    <ul class="nav-links">
+        <li class="home"><a href="#"></a>Home</li>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Services</li>
+        <li><a href="#"></a>Projects</li>
+        <li class="btn"><a href="#"></a>Contact Us</li>
+    </ul> 
+    <img src="../R_p/images/img/menu-btn.png" alt="" class="menu-btn">   
+</nav>
+<!-- end Navbar -->
+
+<!-- Header -->
+<header>
+    <div class="header-content">
+        <h2>Explore The Colorful World</h2> 
+        <div class="line"></div>
+        <h1>A WONDEFUL GIFT</h1>
+        <a class="btn" href="#">Learn More</a>
+    </div>
+</header>
+<!-- end Header -->
+
+<!-- Events section -->
+<section class="events">
+    <h1>UPCOMING EVENTS</h1>
+    <div class="line"></div>
+    <div class="row">
+        <div class="col">
+            <img src="../R_p/images/img/img1.png" alt="" class="sec-image">
+            <h3>Everest camp trek</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur </p>
+            <a class="btn" href="#">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="../R_p/images/img/img2.png" alt="" class="sec-image">
+            <h3>Walking Holidays</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur </p>
+            <a class="btn" href="#">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- end Events section -->
+
+<!--  Explore section  -->
+<section class="explore">
+    <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Facilis architecto, 
+            tenetur quas praesentium officia corrupti temporibus similique mollitia magnam qui fuga eligendi sequi
+            ratione maiores quod iure voluptatum totam. Quas.</p>
+        <a class="btn" href="#">Learn More</a>
+    </div>
+</section>
+<!-- end Explore section  -->
+
+<!-- upcoming section -->
+<section class="upcoming">
+    <div class="row">
+        <div class="col left">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur itaque
+                 ut suscipit numquam ullam consequatur, minus, consequuntur ea praesentium rem! 
+                 Autem dolore praesentium architecto Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur itaque
+                 ut suscipit numquam ullam consequatur, minus, consequuntur ea praesentium rem! 
+                 Autem dolore praesentium architecto nobis earum nemo a veritatis.</p>
+            <a class="btn" href="#">Learn More</a>
+        </div>
+        <div class="col">
+            <div class="images">
+                <img src="../R_p/images/img/img3.png" alt="">
+                <img src="../R_p/images/img/img4.png" alt="">
+                <img src="../R_p/images/img/img5.png" alt="">
+                <img src="../R_p/images/img/img6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end upcoming section -->
+
+<!-- Footer -->
+<footer>
+    <p>123 fifth Avenue ,NY 10160 ,New York, USA | Phone :100-100-100 | Email :contact@gmail.com</p>
+    <p>Copyright © 2022 Outdoor Adventure</p>
+</footer>
+<!-- end Footer -->
+<script>
+    const menubtn= document.querySelector(".menu-btn");
+    const navlinks=document.querySelector(".nav-links");
+    menubtn.addEventListener("click",()=>{
+        navlinks.classList.toggle('mobile-menu');
+    })
+</script>
+</body>
+</html>
